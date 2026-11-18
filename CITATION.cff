@@ -1,0 +1,13 @@
+﻿cff-version: 1.2.0
+message: "If you use this research software, please cite this repository."
+title: "Spatial Transferability of Cenozoic Marine Sedimentary Nitrogen Isotope Records"
+type: software
+authors:
+  - family-names: Khan
+    given-names: Sahil
+  - family-names: el Baz
+    given-names: Mouad
+  - family-names: Khan
+    given-names: Qasim
+repository-code: "https://github.com/AImindcoder/dsms-ni-spatial-transferability"
+license: MIT
