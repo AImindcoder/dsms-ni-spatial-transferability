@@ -1,0 +1,18 @@
+{
+    "audit_timestamp": "2026-11-07T13:19:26.699482",
+    "dataset_filename": "DSMSNI_v0.3.csv",
+    "dataset_path": "D:\\Research\\DSMS_NI_Research\\01_Data\\raw\\DSMSNI_v0.3.csv",
+    "file_size_bytes": 58615431,
+    "file_size_megabytes": 55.9,
+    "sha256": "8b1eed5b1dc330a6ac6124358b973eacd99e95e5a85c7d5c91e11827e8ac8f21",
+    "number_of_rows": 78300,
+    "number_of_columns": 122,
+    "numeric_columns": 97,
+    "non_numeric_columns": 25,
+    "total_missing_cells": 7201305,
+    "total_cells": 9552600,
+    "missing_cells_percentage": 75.3858,
+    "exact_duplicate_rows": 0,
+    "exact_duplicate_percentage": 0.0,
+    "dataframe_memory_usage_mb": 114.594
+}

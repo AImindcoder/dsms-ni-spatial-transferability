@@ -1,0 +1,7 @@
+category_A,category_B,publications_A,publications_B,shared_publications
+constant_age_multiple_depths_candidate,insufficient_information,60,90,13
+constant_age_multiple_depths_candidate,monotonic_age_depth_candidate,60,110,6
+constant_age_multiple_depths_candidate,variable_age_depth_unresolved,60,8,2
+insufficient_information,monotonic_age_depth_candidate,90,110,11
+insufficient_information,variable_age_depth_unresolved,90,8,2
+monotonic_age_depth_candidate,variable_age_depth_unresolved,110,8,3

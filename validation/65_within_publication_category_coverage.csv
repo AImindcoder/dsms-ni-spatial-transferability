@@ -1,0 +1,5 @@
+resolution_proxy,publication_category_rows,publications,mean_MAE
+constant_age_multiple_depths_candidate,15,15,1.8239075880464382
+insufficient_information,20,20,1.7931031819293337
+monotonic_age_depth_candidate,14,14,1.4777452606852761
+variable_age_depth_unresolved,3,3,1.2299503471455129

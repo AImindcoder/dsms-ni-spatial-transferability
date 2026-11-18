@@ -1,0 +1,4 @@
+term,coefficient,cluster_robust_SE,p_value,CI_lower,CI_upper
+"C(resolution_proxy, Treatment(reference='monotonic_age_depth_candidate'))[T.constant_age_multiple_depths_candidate]",0.03643478732282718,0.20326067787163193,0.8577402044793435,-0.36194882077876894,0.4348183954244233
+"C(resolution_proxy, Treatment(reference='monotonic_age_depth_candidate'))[T.insufficient_information]",0.15664692559466328,0.12721802746714017,0.21820078297999068,-0.0926958264251588,0.40598967761448534
+"C(resolution_proxy, Treatment(reference='monotonic_age_depth_candidate'))[T.variable_age_depth_unresolved]",0.06920068871438201,0.26082786921058615,0.7907693422623812,-0.4420125411026905,0.5804139185314545

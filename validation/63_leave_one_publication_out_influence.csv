@@ -1,0 +1,3 @@
+category_A,category_B,full_difference,minimum_LOO_difference,maximum_LOO_difference,LOO_positive_count,LOO_total,LOO_sign_reversal_count,most_influential_publication,largest_absolute_change
+constant_age_multiple_depths_candidate,monotonic_age_depth_candidate,0.8349325303011621,0.4743505012106064,0.8746440602415586,239,239,0,PSG_DOI_10.1111/j.1472-4669.2011.00271.x,0.3605820290905557
+insufficient_information,monotonic_age_depth_candidate,0.6280751871694343,0.5450374022183218,0.6574308311143378,239,239,0,PSG_DOI_10.1016/j.gloplacha.2014.10.014,0.08303778495111258

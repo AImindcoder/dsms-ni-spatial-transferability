@@ -1,0 +1,35 @@
+{
+  "experiment": "TOC-augmented paired 37-fold buffered spatial validation",
+  "purpose": "Test incremental predictive value of TOC on identical TOC-complete records",
+  "original_cohort_records": 37118,
+  "TOC_usable_records": 18002,
+  "TOC_missing_records": 18938,
+  "TOC_conflicting_records": 178,
+  "paired_test_records": 18002,
+  "folds": 37,
+  "fold_manifest": "EXP_SPATIAL_37FOLD_EXTRATREES_MANIFEST.csv",
+  "sequence_independence_preserved": true,
+  "publication_independence_preserved": true,
+  "matching_key": [
+    "DOI",
+    "SiteName",
+    "target",
+    "age",
+    "depth",
+    "setting"
+  ],
+  "ambiguous_linkage_rule": "Accept TOC only if all candidate raw records agree, including missingness",
+  "models": [
+    "Original predictors: age, latitude, longitude sine/cosine, depth, setting",
+    "Same predictors plus TOC"
+  ],
+  "estimator": "ExtraTreesRegressor",
+  "n_estimators": 100,
+  "max_depth": 18,
+  "min_samples_leaf": 3,
+  "max_features": 1.0,
+  "random_state": 20261111,
+  "block_bootstrap_replicates": 20000,
+  "block_bootstrap_seed": 20261111,
+  "raw_data_modified": false
+}

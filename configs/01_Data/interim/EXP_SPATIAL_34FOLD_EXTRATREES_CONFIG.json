@@ -1,0 +1,30 @@
+{
+  "experiment": "34-fold buffered spatial and publication-independent ExtraTrees validation",
+  "cohort_records": 36174,
+  "sequences": 1126,
+  "publications": 135,
+  "blocks": 34,
+  "folds": 34,
+  "features": [
+    "age",
+    "latitude",
+    "longitude_sin",
+    "longitude_cos",
+    "depth",
+    "setting"
+  ],
+  "longitude_encoding": "sin(latitude-independent longitude angle), cos(longitude angle)",
+  "categorical_encoding": "OneHotEncoder(handle_unknown=ignore)",
+  "model": "ExtraTreesRegressor",
+  "n_estimators": 100,
+  "max_depth": 18,
+  "min_samples_leaf": 3,
+  "max_features": 1.0,
+  "random_state": 20261111,
+  "n_jobs": 2,
+  "validation": "leave-one-grid-block-out",
+  "spatial_buffer": "one edge-sharing eligible neighboring block; cyclic longitude",
+  "publication_exclusion": "all test-block publications excluded from training",
+  "baseline": "training-set median",
+  "raw_data_modified": false
+}

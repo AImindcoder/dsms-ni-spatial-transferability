@@ -1,0 +1,5 @@
+resolution_proxy,publication_category_rows,publications,observations,mean_publication_MAE,median_isotope_SD,median_isotope_mean,median_observations
+constant_age_multiple_depths_candidate,60,60,3810,2.470245636710585,0.9056969603345444,2.828801169590643,43.0
+insufficient_information,89,89,7118,2.2850131607242674,1.264235245633707,2.359090909090909,42.0
+monotonic_age_depth_candidate,110,110,12628,1.6353131064094222,1.2234468911077352,2.363197474167624,78.0
+variable_age_depth_unresolved,8,8,455,1.5938585683022133,1.0483949973618332,3.932057584269663,48.0

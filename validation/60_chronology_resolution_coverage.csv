@@ -1,0 +1,5 @@
+resolution_proxy,observations,publications,source_site_groups,folds
+constant_age_multiple_depths_candidate,3810,60,105,5
+insufficient_information,7119,90,160,5
+monotonic_age_depth_candidate,12628,110,152,5
+variable_age_depth_unresolved,455,8,8,5

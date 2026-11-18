@@ -1,0 +1,8 @@
+﻿case,fold,age_window_Ma,training_observations,training_publications,training_coordinates,target_mean,target_std,target_min,target_max
+Fold 1 - Neoarchean,1,25,20,2,4,0.8630000000000002,4.599776996882852,-5.6,8.83
+Fold 1 - Neoarchean,1,50,20,2,4,0.8630000000000002,4.599776996882852,-5.6,8.83
+Fold 1 - Neoarchean,1,100,308,5,9,3.3377922077922078,3.1526323723594114,-5.6,13.95
+Fold 3 - Mesoarchean,3,10,1,1,1,0.06,,0.06,0.06
+Fold 3 - Mesoarchean,3,25,6,1,2,-1.325,0.9909742680816692,-2.82,0.06
+Fold 3 - Mesoarchean,3,50,6,1,2,-1.325,0.9909742680816692,-2.82,0.06
+Fold 3 - Mesoarchean,3,100,6,1,2,-1.325,0.9909742680816692,-2.82,0.06

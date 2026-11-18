@@ -1,0 +1,27 @@
+{
+  "experiment": 277,
+  "input": "01_Data\\raw\\DSMSNI_v0.3.csv",
+  "target": "\u03b415Nbulk\n\u2030",
+  "features_age_only": [
+    "Age"
+  ],
+  "features_geochemical": [
+    "Age",
+    "TN\n%",
+    "TOC\n%"
+  ],
+  "group_column": "DOI",
+  "minimum_publication_records": 10,
+  "validation": "GroupKFold",
+  "folds": 5,
+  "model": "HistGradientBoostingRegressor",
+  "max_iter": 150,
+  "max_leaf_nodes": 15,
+  "min_samples_leaf": 20,
+  "l2_regularization": 1.0,
+  "early_stopping": false,
+  "model_random_state": 253,
+  "within_publication_partition": "train_test_split(test_size=0.5)",
+  "partition_random_state": 261,
+  "note": "Reproducibility rerun; not claimed to reproduce the missing original script exactly."
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "B_no_spatial_buffer",
+  "status": "completed",
+  "n_test": 37118,
+  "n_blocks": 37,
+  "model_mae": 1.6394190002698852,
+  "model_rmse": 2.104365760034064,
+  "model_r2": 0.029738434263893776,
+  "baseline_mae": 1.6604501858936365,
+  "baseline_rmse": 2.1805348197927685,
+  "baseline_r2": -0.041771391360977406,
+  "sklearn_version": "1.9.1",
+  "preprocessing": "age, latitude, sin/cos longitude, depth, global one-hot setting; no imputation",
+  "note": "Independent implementation. Original encoding and fold-specific processing must be verified before treating as exact controlled ablation."
+}

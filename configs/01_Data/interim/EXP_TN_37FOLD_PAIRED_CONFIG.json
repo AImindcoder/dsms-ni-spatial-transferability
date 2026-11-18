@@ -1,0 +1,36 @@
+{
+  "experiment": "TN-augmented paired 37-fold buffered spatial validation",
+  "purpose": "Test whether TN adds predictive information on identical TN-complete records",
+  "cohort_original_records": 37118,
+  "TN_usable_records": 22659,
+  "TN_missing_records": 14325,
+  "TN_conflicting_linkage_records": 134,
+  "paired_test_predictions": 22659,
+  "folds": 37,
+  "fold_manifest": "EXP_SPATIAL_37FOLD_EXTRATREES_MANIFEST.csv",
+  "fold_design_preserved": true,
+  "sequence_independence_preserved": true,
+  "publication_independence_preserved": true,
+  "matching_key": [
+    "DOI",
+    "SiteName",
+    "target",
+    "age",
+    "depth",
+    "setting"
+  ],
+  "ambiguous_linkage_rule": "Use TN only when all candidate raw records agree, including missingness",
+  "models": [
+    "Original predictors: age, latitude, longitude sine/cosine, depth, setting",
+    "Same predictors plus TN"
+  ],
+  "estimator": "ExtraTreesRegressor",
+  "n_estimators": 100,
+  "max_depth": 18,
+  "min_samples_leaf": 3,
+  "max_features": 1.0,
+  "random_state": 20261111,
+  "n_jobs": 2,
+  "paired_test_records": true,
+  "raw_data_modified": false
+}

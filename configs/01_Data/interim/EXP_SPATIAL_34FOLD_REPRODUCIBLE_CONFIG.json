@@ -1,0 +1,15 @@
+{
+  "experiment": "34-fold buffered spatial and publication-independent validation",
+  "source_audit": "EXP_SPATIAL_CV_CENOZOIC_COMPLETE_CASE_AUDIT.csv",
+  "cohort_records": 36174,
+  "eligible_blocks": 34,
+  "folds": 34,
+  "grid": "15 degree latitude x 30 degree longitude",
+  "longitude_adjacency": "cyclic",
+  "buffer": "one edge-sharing eligible neighboring block",
+  "publication_exclusion": "all publications represented in the test block",
+  "sequence_leakage_check": "zero shared sequences",
+  "publication_leakage_check": "zero shared publications",
+  "model": "not yet fitted",
+  "raw_data_modified": false
+}

@@ -1,0 +1,6 @@
+﻿fold,training_observations,testing_observations,training_unique_ages,training_age_min_Ma,training_age_max_Ma,testing_age_min_Ma,testing_age_max_Ma,test_rows_outside_training_age_range,outside_range_percent,median_nearest_training_age_Ma,p90_nearest_training_age_Ma,p99_nearest_training_age_Ma
+1,51474,12869,24249,0.0,3700.0,0.0,2960.0,0,0.0,0.0,0.010002000000002917,10.0
+2,51474,12869,23724,0.0,3700.0,0.0,2700.0,0,0.0,0.0,0.08675800000000908,10.0
+3,51474,12869,23804,0.0,3700.0,0.0,2971.0,0,0.0,0.0,0.006575999999995496,9.084051199999955
+4,51475,12868,23786,0.0,2971.0,0.0,3700.0,80,0.6216972334473112,0.0,0.04409479000000867,93.8004700999999
+5,51475,12868,24313,0.0,3700.0,0.0,2700.0,0,0.0,0.0,0.04084125000001681,20.0
