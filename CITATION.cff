@@ -1,6 +1,6 @@
 ﻿cff-version: 1.2.0
 message: "If you use this research software, please cite this repository."
-title: "Spatial Transferability of Cenozoic Marine Sedimentary Nitrogen Isotope Records"
+title: "Testing the Spatial Transferability of Cenozoic Marine Sedimentary Nitrogen Isotope Records: A Publication- and Sequence-Independent Machine-Learning Assessment"
 type: software
 authors:
   - family-names: Khan
